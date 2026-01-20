@@ -1,9 +1,12 @@
+import Navbar from "../components/Navbar"
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+     <section className="py-10 h-screen w-full flex flex-col items-center justify-start">
+      <Navbar/>
+    </section>
+    </>
   )
 }
 
